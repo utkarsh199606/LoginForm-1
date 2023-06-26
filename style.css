@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body, body * {
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-image: url("images/Background.jpg");
+  height: auto;
+  /* max-width: 100%; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  background-size: 110% 130%;
+}
+  
+  /* Add styles to the form container */
+
+  .container {
+    max-width: 30% !important;
+    position: absolute;
+  }
+
+  .main_logo img{
+    display: none;
+  }
+
+  .title_logo img{
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+  /* Form Title  */
+  .title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 1.0rem;
+  }
+
+  /* Email and password input */
+  input[type=text], input[type=password] {
+    width: 102%;
+    padding: 10px 15px;
+    border-radius: 12px;
+    background-color: rgba(245, 74, 141, 0.8)
+  }
+
+  input[type=checkbox]{
+    accent-color:rgba(245, 74, 141, 0.8);
+  }
+
+  /* Forget Password */
+  .forget{
+    color: black;
+    text-decoration: none;
+  }
+
+  .forget:hover{
+    font-weight: 600;
+  }
+
+  /* Submit button */
+
+  .submit-btn{
+    width: 102%;
+    background-color:rgba(19, 51, 130, 1) !important;
+    color: white !important;
+    padding: 8px 15px !important;
+    font-size: 17px !important;
+  }
+  .submit-btn:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  }
+
+/* Line Break  */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: black;
+}
+
+/* signup */
+
+.google, .facebook, .apple{
+  background-color:rgba(19, 51, 130, 1) !important;
+  color: white !important;
+}
+
+a.apple{
+  margin-left: 30.5% !important;
+}
+
+a.facebook{
+  margin-left: 32% !important;
+}
+
+.facebook:hover, .google:hover, .apple:hover{
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.account {
+padding-right: 6% !important;
+}
+
+@media (max-width: 770px) {
+  html{
+    background-image: url("images/Background-02.jpeg");
+    max-width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+  .container{
+    margin-right: 20% !important;
+    margin-left: 0 !important;
+    margin-top: 12%;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    max-width: 85% !important;
+    min-width: 250px;
+    background: #f1f5f8;
+    /* background-image: radial-gradient(#bfc0c1 7.2%, transparent 0); */
+    background-size: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    padding: 1rem;
+    box-sizing: border-box;
+    padding-left: 8% !important;
+  }
+  
+  .main_logo img{
+    display: block;
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 2%;
+  }
+
+  .title_logo img{
+    display: none;
+  }
+
+  .title{
+    margin-top: 5%;
+  }
+
+  input[type=text], input[type=password] {
+    width: 93%;
+  }
+
+  .forget{
+    margin-right: 1.8rem;
+  }
+
+  .submit-btn{
+    width: 93%;
+  }
+
+  .divider:after{
+    margin-right: 1.8rem;
+  }
+
+  a.apple{
+    margin-left: 28% !important;
+  }
+
+  a.facebook{
+    margin-left: 30% !important;
+  }
+
+  .account {
+    padding-left: 15px !important;
+    }
+}
+
+@media (max-width: 440px) {
+  html{
+    background-image: url("images/Background-02.jpeg");
+    max-width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+  .container{
+    margin-top: 10%;
+    margin-left: 20% !important;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    max-width: 85%;
+  }
+
+  .main_logo img{
+    width: 65%;
+    margin-left: 15%;
+  }
+
+  .form-label{
+    font-size: 17px;
+  }
+
+  input[type=text], input[type=password] {
+    width: 93%;
+    padding: 12px 15px;
+    border-radius: 12px;
+    background-color: rgba(245, 74, 141, 0.8)
+  }
+
+  input[type=checkbox]{
+    margin-top: 15px;
+  }
+
+  .submit-btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 9px 15px !important;
+}
+
+.account {
+padding-right: 6% !important;
+padding-left: 10px !important;
+}
+
+.account a:hover{
+  color: rgba(245, 74, 141, 1)
+}
+
+a.apple{
+  margin-left: 12% !important;
+}
+
+a.facebook{
+  margin-left: 25% !important;
+}
+}
+
+@media (max-width: 358px) {
+  .title{
+    font-size: 25px;
+    margin-right: 1.0rem;
+  }
+
+  a.google{
+    margin-left: 18% !important;
+  }
+  a.apple{
+    margin-left: 20% !important;
+  }
+  a.facebook{
+    margin-left: 17% !important;
+  }
+
+  .account {
+    padding-right: 1% !important;
+    padding-left: 0px !important;
+  }
+}
